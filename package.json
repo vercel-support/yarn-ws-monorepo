@@ -1,0 +1,22 @@
+{
+  "name": "yarn-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "nextapp",
+    "backend",
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "yarn --cwd backend start",
+    "build": "yarn --cwd frontend build",
+    "next": "yarn --cwd nextapp dev",
+    "dev": "npm-run-all --parallel start next"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
