@@ -10,7 +10,7 @@ export default function App() {
     <div className="App">
       {/*Output the site title and subtitle to the screen*/}
       <header className="App-header">
-        <h1>Welcome to {siteInfo.title}</h1>
+        <h1>{siteInfo.title}</h1>
         <p>{siteInfo.subtitle}</p>
       </header>
     </div>
