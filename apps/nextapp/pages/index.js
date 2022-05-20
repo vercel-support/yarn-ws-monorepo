@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       {/*Output the site title and subtitle to the screen*/}
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to {siteInfo.title}</h1>
+        <h1 className={styles.title}>Welcome to my {siteInfo.title}</h1>
         <p className={styles.description}>{siteInfo.subtitle}</p>
       </main>
     </div>
