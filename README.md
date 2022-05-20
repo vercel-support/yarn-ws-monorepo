@@ -1,10 +1,12 @@
 # Deploying Monorepos with Yarn Workspaces and Vercel
 
-In this guide, you will deploy a monorepo with Yarn workspaces and the following components:
+In this repository, you will deploy a monorepo with Yarn workspaces and the following components:
 
 - A `create-react-app` application with a frontend and backend
 - A Next.js application
 - A common library containing a utility function shared between each application
+
+You can follow the step by step guide [here](https://vercel.com/guides/deploying-yarn-monorepos-to-vercel).
 
 To deploy to Vercel, please follow these steps:
 
