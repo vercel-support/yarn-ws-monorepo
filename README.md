@@ -11,7 +11,7 @@ You can follow the step by step guide [here](https://vercel.com/guides/deploying
 To deploy to Vercel, please follow these steps:
 
 1. Clone this repository
-2. Deploy both applications to Vercel from this same repository by [creating a new Vercel Project with Git](https://vercel.com/docs/concepts/git#deploying-a-git-repository) and selecting the repository twice from the **Import Git Repository** section by using the following configuration for each:
+2. Deploy both applications to Vercel from this same repository by [creating a new Vercel Project with Git](https://vercel.com/docs/concepts/git#deploying-a-git-repository) twice and selecting the repository from the **Import Git Repository** section. Use the following configuration for each Vercel Project:
 
 - For the `apps/frontend` `create-react-app` application, choose **Create React App** as the framework and **apps/frontend** as the root directory
 - For the `apps/nextapp` `Next.js` application, choose **Next.js** as the framework and **apps/nextapp** as the root directory
