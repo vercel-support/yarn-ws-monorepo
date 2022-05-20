@@ -1,7 +1,8 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
-//Import the function to the `Next.js` app
-import { getSiteInfo } from '@yarn-monorepo/framework';
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+
+// Import the shared function into the Next.js application
+import { getSiteInfo } from "site-info";
 
 export default function Home() {
   let siteInfo = getSiteInfo(); //Define a variable to get the values
@@ -15,7 +16,7 @@ export default function Home() {
       {/*Output the site title and subtitle to the screen*/}
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to {siteInfo.title}</h1>
-        <p className={styles.description}>{siteInfo.sub}</p>
+        <p className={styles.description}>{siteInfo.subtitle}</p>
       </main>
     </div>
   );

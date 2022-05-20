@@ -1,5 +1,5 @@
 {
-  "name": "@yarn-monorepo/framework",
+  "name": "site-info",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT"

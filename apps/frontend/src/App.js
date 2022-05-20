@@ -1,6 +1,7 @@
-import './App.css';
-//Import the function to the `create-react-app` project
-import { getSiteInfo } from '@yarn-monorepo/framework';
+import "./App.css";
+
+// Import the shared function into the `create-react-app` application
+import { getSiteInfo } from "site-info";
 
 export default function App() {
   //Define a variable to get the values
@@ -10,7 +11,7 @@ export default function App() {
       {/*Output the site title and subtitle to the screen*/}
       <header className="App-header">
         <h1>{siteInfo.title}</h1>
-        <p>{siteInfo.sub}</p>
+        <p>{siteInfo.subtitle}</p>
       </header>
     </div>
   );

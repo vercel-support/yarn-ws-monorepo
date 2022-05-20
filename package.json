@@ -5,15 +5,13 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "frontend",
-    "nextapp",
-    "backend",
+    "apps/*",
     "packages/*"
   ],
   "scripts": {
-    "start": "yarn --cwd backend start",
-    "build": "yarn --cwd frontend build",
-    "next": "yarn --cwd nextapp dev",
+    "start": "yarn --cwd apps/backend start",
+    "build": "yarn --cwd apps/frontend build",
+    "next": "yarn --cwd apps/nextapp dev",
     "dev": "npm-run-all --parallel start next"
   },
   "devDependencies": {
