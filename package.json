@@ -9,8 +9,7 @@
     "packages/*"
   ],
   "scripts": {
-    "start": "yarn --cwd apps/backend start",
-    "build": "yarn --cwd apps/frontend build",
+    "start": "yarn --cwd apps/frontend start",
     "next": "yarn --cwd apps/nextapp dev",
     "dev": "npm-run-all --parallel start next"
   },

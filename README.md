@@ -2,7 +2,7 @@
 
 In this repository, you will deploy a monorepo with Yarn workspaces and the following components:
 
-- A `create-react-app` application with a frontend and backend
+- A `create-react-app` application
 - A Next.js application
 - A common library containing a utility function shared between each application
 
